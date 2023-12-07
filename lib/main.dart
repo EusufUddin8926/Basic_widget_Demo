@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Screens/Container_Widget.dart';
+import 'Screens/column_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const container_demo(),
+      home:  const Column_Widget(),
     );
   }
 }
