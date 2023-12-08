@@ -92,11 +92,10 @@ class Column_Widget extends StatelessWidget {
                   SizedBox(
                     height: 30,
                     child: IconButton(
-                      onPressed: () {},
-                      icon: Icon(Icons.share),
+                        onPressed: () {},
+                        icon: Icon(Icons.share),
                         padding: EdgeInsets.zero,
-                        constraints: BoxConstraints()
-                    ),
+                        constraints: BoxConstraints()),
                   ),
                   Text(
                     "Share",
